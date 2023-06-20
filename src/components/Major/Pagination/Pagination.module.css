@@ -1,0 +1,35 @@
+.paginationContainer{
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paginationContainer .paginationItem{
+    margin: 10px;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.paginationContainer .paginationItem:hover{
+    background-color: rgba(170,112,214,0.5);
+    color: white;
+}
+
+.paginationContainer .selected{
+    background-color: #aa70d6;
+}
+
+.paginationContainer .disabled{
+    display: none;
+}

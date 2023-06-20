@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("fonts.css");
+
+@layer utilities{
+    .ltr-dir {
+        direction: ltr;
+    }
+    .font-danaThin{
+        font-family: "Dana";
+        font-weight: 100;
+        font-style: normal;
+    }
+    .font-danaExtraLight{
+        font-family: "Dana";
+        font-weight: 200;
+        font-style: normal;
+    }
+    .font-danaLight{
+        font-family: "Dana";
+        font-weight: 300;
+        font-style: normal;
+    }
+    .font-danaRegular{
+        font-family: "Dana";
+        font-weight: 400;
+        font-style: normal;
+    }
+    .font-danaMedium{
+        font-family: "Dana";
+        font-weight: 500;
+        font-style: normal;
+    }
+    .font-danaDemiBold{
+        font-family: "Dana";
+        font-weight: 600;
+        font-style: normal;
+    }
+    .font-danaBold{
+        font-family: "Dana";
+        font-weight: 700;
+        font-style: normal;
+    }
+    .font-danaExtraBold{
+        font-family: "Dana";
+        font-weight: 800;
+        font-style: normal;
+    }
+    .font-danaBlack{
+        font-family: "Dana";
+        font-weight: 900;
+        font-style: normal;
+    }
+
+}
+
+@layer components{
+    .pageTabs-tab{
+        @apply m-2 py-1 px-3 inline-block rounded-full transition hover:bg-transparentPurple hover:text-dark text-dark dark:text-white dark:hover:text-white;
+    }
+    .pageTabs-tab[data-te-nav-active]{
+        @apply bg-transparentPurple;
+    }
+    .simple-input{
+        @apply p-2 rounded-lg mt-3 focus:outline-none w-full dark:bg-dark-mode-secondary bg-light-mode-secondary;
+    }
+    .input-label{
+        @apply dark:text-white text-dark;
+    }
+    .field-error{
+        @apply bg-danger text-white text-sm p-1 rounded-sm mt-3;
+    }
+    .select-state-btn{
+        @apply text-lg dark:bg-dark-mode-secondary dark:hover:bg-transparentPurple bg-lightWhite hover:bg-transparentPurple p-12 transition rounded-lg text-white m-6;
+    }
+    .dir-ltr{
+        direction: ltr;
+    }
+    .dir-rtl{
+        direction: rtl;
+    }
+}
+
+@layer base{
+    *{
+        @apply text-dark dark:text-white font-danaRegular;
+    }
+
+    html, body{
+        direction: rtl;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        @apply bg-light-mode-primary dark:bg-dark-mode-secondary lg:bg-light-mode-secondary lg:dark:bg-dark-mode-secondary transition;
+    }
+}
+
+.tox-notification.tox-notification--in.tox-notification--warning{
+    display: none !important;
+}

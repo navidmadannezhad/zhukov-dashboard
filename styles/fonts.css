@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Dana';
+    font-weight: 100;
+    font-style: normal;
+    src: url('../public/assets/fonts/Dana/Dana-Thin.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Dana';
+    font-weight: 200;
+    font-style: normal;
+    src: url('../public/assets/fonts/Dana/Dana-ExtraLight.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Dana';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../public/assets/fonts/Dana/Dana-Light.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Dana';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../public/assets/fonts/Dana/Dana-Regular.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Dana';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../public/assets/fonts/Dana/Dana-Medium.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Dana';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../public/assets/fonts/Dana/Dana-DemiBold.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Dana';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../public/assets/fonts/Dana/Dana-Bold.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Dana';
+    font-weight: 800;
+    font-style: normal;
+    src: url('../public/assets/fonts/Dana/Dana-ExtraBold.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Dana';
+    font-weight: 900;
+    font-style: normal;
+    src: url('../public/assets/fonts/Dana/Dana-Black.ttf'); /* IE9 Compat Modes */
+}
